@@ -10,6 +10,8 @@ public class HelloController {
 	
 	@GetMapping
 	public String hello() {
+		
+		// comment
 		return "banana";
 	}
 }
